@@ -8,7 +8,7 @@ const plugins = require('./webpack/plugins');
 const webpack = require('./webpack.config');
 
 module.exports = (config) => {
-  const coverage = config.singleRun ? ['coverage'] : [];
+  const coverage = config.singleRun ? [] : [];
 
   config.set({
     frameworks: [
