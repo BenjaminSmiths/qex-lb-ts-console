@@ -81,3 +81,5 @@ Copyright (c) 2016 rangle.io
 [MIT License][MIT]
 
 [MIT]: ./LICENSE "Mit License"
+
+The project is contains [LoopBack](http://loopback.io).
