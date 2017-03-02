@@ -10,7 +10,7 @@ import {
 export function loginUser() {
   return (dispatch, getState) => {
     const user = {
-      username: getState().form.login.username.value,
+      email: getState().form.login.username.value,
       password: getState().form.login.password.value,
     };
 

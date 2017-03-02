@@ -4,7 +4,6 @@ const loopback = require('loopback');
 const boot = require('loopback-boot');
 
 
-
 const app = module.exports = loopback();
 
 // const proxy = require('./middleware/proxy');

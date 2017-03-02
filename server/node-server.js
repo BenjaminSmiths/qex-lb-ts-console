@@ -1,5 +1,7 @@
 'use strict';
 
+const loopback = require('loopback');
+const boot = require('loopback-boot');
 const express = require('express');
 const winston = require('winston');
 const helmet = require('helmet');
@@ -17,7 +19,8 @@ let users;
  * Serves your app and allows you to proxy APIs if needed.
  */
 
-const app = express();
+// const app = express();
+const app = module.exports = loopback();
 const PORT = process.env.PORT || 8080;
 
 authPassport.readUsers()

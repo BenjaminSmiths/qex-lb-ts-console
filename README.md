@@ -1,6 +1,5 @@
-[![Circle CI](https://circleci.com/gh/rangle/typescript-react-redux-example.svg?style=svg)](https://circleci.com/gh/rangle/typescript-react-redux-example)
-
-# TypeScript/React/Redux Starter
+# QEX-Console CMS
+## built with TypeScript/React/Redux/Loopback
 
 This is the initial version of our starter project using React, TypeScript and Webpack to tie it all together.
 

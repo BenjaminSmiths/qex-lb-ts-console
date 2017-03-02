@@ -16,10 +16,10 @@
 module.exports = {
   // Calls to /api/foo will get routed to
   // http://jsonplaceholder.typicode.com/foo.
-  /*
+
   '/api/': {
-    target: 'http://jsonplaceholder.typicode.com',
+    target: 'http://localhost:3000/api/',
     changeOrigin: true,
   },
-  */
+
 };

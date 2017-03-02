@@ -1,6 +1,12 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
+  "mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "qex-cms-db",
+    "password": "",
+    "name": "mongodb",
+    "user": "admin",
+    "connector": "mongodb"
   }
 }

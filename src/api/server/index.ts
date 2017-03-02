@@ -13,5 +13,3 @@ export function post(path, data) {
   })
   .then(response => response.json());
 }
-
-
