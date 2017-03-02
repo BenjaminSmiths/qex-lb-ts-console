@@ -26,7 +26,7 @@ minified version of the client.
 
 Open `http://localhost:8080` in your browser.
 
-> Note: Demo username/password can be found [here](https://github.com/rangle/typescript-react-redux-starter/blob/master/server/users.json)
+> Note: To Add a username/password Post a new one to the Users table using the swagger interface [here](http://localhost:3000/explorer/#/)
 
 ### Tests
 

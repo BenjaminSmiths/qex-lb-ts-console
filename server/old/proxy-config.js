@@ -14,12 +14,12 @@
 // 3. use a dedicated reverse proxy (e.g. Nginx) to do this instead.
 
 module.exports = {
-  // Calls to /api/foo will get routed to
-  // http://jsonplaceholder.typicode.com/foo.
+    // Calls to /api/foo will get routed to
+    // http://jsonplaceholder.typicode.com/foo.
 
-  '/api/': {
-    target: 'http://localhost:3000/api/',
-    changeOrigin: true,
-  },
+    // '/api/': {
+    //   target: 'http://localhost:3000/api/',
+    //   changeOrigin: true,
+    // },
 
 };

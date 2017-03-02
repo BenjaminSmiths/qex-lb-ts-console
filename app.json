@@ -1,12 +1,10 @@
 {
-  "name":"typescript-react-redux-starter",
-  "scripts":{},
-  "env":{
-
-    "NPM_CONFIG_PRODUCTION" : {
-      "value":"false"
+  "name": "qex-console",
+  "scripts": {},
+  "env": {
+    "NPM_CONFIG_PRODUCTION": {
+      "value": "false"
     }
-
   },
-  "addons":[]
+  "addons": []
 }

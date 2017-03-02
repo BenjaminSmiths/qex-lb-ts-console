@@ -1,16 +1,17 @@
 import * as React from 'react';
 
 interface IFormLabelProps extends React.Props<any> {
-  id?: string;
-};
+    id?: string;
+}
+;
 
 export default function FormLabel({
-  children = null,
-  id = ''
+    children = null,
+    id = ''
 }: IFormLabelProps) {
-  return (
-    <label id={ id }>
-      { children }
-    </label>
-  );
+    return (
+        <label id={ id }>
+            { children }
+        </label>
+    );
 }

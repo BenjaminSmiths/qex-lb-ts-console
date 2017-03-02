@@ -1,9 +1,16 @@
 {
   "rules": {
-    "at-rule-empty-line-before": ["always", {
-      "except": ["blockless-group"],
-      "ignore": ["after-comment"],
-    }],
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "except": [
+          "blockless-group"
+        ],
+        "ignore": [
+          "after-comment"
+        ],
+      }
+    ],
     "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always-multi-line",
@@ -38,11 +45,14 @@
     "function-parentheses-space-inside": "never-single-line",
     "function-whitespace-after": "always",
     "function-url-quotes": "always",
-    "indentation": 2,
+    "indentation": 4,
     "max-empty-lines": 1,
-    "max-line-length": [ 80, {
-      "ignore": "non-comments",
-    } ],
+    "max-line-length": [
+      120,
+      {
+        "ignore": "non-comments",
+      }
+    ],
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
     "media-feature-name-no-vendor-prefix": true,

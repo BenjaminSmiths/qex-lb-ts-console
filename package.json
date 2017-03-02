@@ -1,7 +1,7 @@
 {
-  "name": "typescript-react-redux-starter",
+  "name": "qex-console",
   "version": "0.1.0",
-  "description": "A boiler-plate setup for TypeScript/React/Redux applications",
+  "description": "A CMS to manage the creation of QExtra panels. build using TypeScript/React/Redux/loopback applications",
   "license": "MIT",
   "engines": {
     "node": "6"
@@ -18,7 +18,7 @@
     "lint-ts": "tslint \"src/**/*.tsx\" \"src/**/*.ts\" \"test/**/*.tsx\" \"test/**/*.ts\"",
     "lint-js": "eslint \"**/*.js\" --ignore-path .gitignore",
     "postinstall": "npm run typings && npm run build",
-    "start": "cross-env NODE_ENV=production node server/node-server.js",
+    "start": "cross-env NODE_ENV=production node server/server.js",
     "pretest": "npm run lint",
     "test": "karma start --singleRun true",
     "test:watch": "karma start --singleRun false",
@@ -36,10 +36,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rangle/typescript-react-redux-starter.git"
+    "url": "git@gitlab.intranet.sky:luna-apps/qex-console.git"
   },
   "bugs": {
-    "url": "https://github.com/rangle/rangle-starter/issues"
+    "url": "http://gitlab.intranet.sky/luna-apps/qex-console/issues"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -88,6 +88,7 @@
     "karma-chrome-launcher": "^2.0.0",
     "karma-coverage": "^1.0.0",
     "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
     "karma-remap-istanbul": "^0.1.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-sourcemap-writer": "^0.1.2",
@@ -97,6 +98,7 @@
     "object-assign": "^4.0.1",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
+    "phantomjs": "^2.1.7",
     "postcss-cssnext": "^2.4.0",
     "postcss-import": "^8.0.2",
     "postcss-loader": "^0.13.0",

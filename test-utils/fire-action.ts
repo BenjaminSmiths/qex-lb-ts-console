@@ -8,8 +8,8 @@
  * @return {Object} Updated state as a result of the action
  */
 export default function fireAction(reducer, currentState, type, payload = {}) {
-  return reducer(currentState, {
-    type,
-    payload
-  });
+    return reducer(currentState, {
+        type,
+        payload
+    });
 }
