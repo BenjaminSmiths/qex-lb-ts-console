@@ -26,7 +26,7 @@ minified version of the client.
 
 Open `http://localhost:8080` in your browser.
 
-> Note: To Add a username/password Post a new one to the Users table using the swagger interface [here](http://localhost:3000/explorer/#/)
+> Note: To Add a username/password Post a new one to the Users table using the swagger interface [production](http://localhost:8080/explorer/#/) or [dev](http://localhost:3000/explorer/#/)
 
 ### Tests
 
@@ -44,34 +44,6 @@ $ npm run test:watch
 ```bash
 $ npm run cover
 ```
-
-#### Connecting to remote APIs
-
-Both the devmode and production servers provide a way to proxy requests to
-remote HTTP APIs.  This can be useful for working around CORS issues when
-developing your software.
-
-Edit [this file](server/proxy-config.js) to mount such APIs at a given path.
-
-## Improvements
-
-This is an initial version of this setup and will be expanded in the future. Refer to the [issues section](https://github.com/rangle/rangle-starter/issues) to see what needs to be done, or create a [new one](https://github.com/rangle/rangle-starter/issues/new).
-
-Issues for this particular starter project are tagged with the 'ts-react' label.
-
-### Planned work
-
-* Fix/ReOrg BassCSS styles
-* Test examples (unit)
-* Component `displayName`, `defaultProps` and documentation
-
-## If something doesn't work
-
-We centralize issue management for all rangle starters in the [rangle-starter](https://github.com/rangle/rangle-starter) repository, to help us keep things consistent.
-
-Refer to the [issues section](https://github.com/rangle/rangle-starter/issues) to see if this has already been logged. Otherwise create a [new issue](https://github.com/rangle/rangle-starter/issues/new).
-
-Be sure to tag your new issue with the 'ts-react' label so we can see which starter you're filing it for.
 
 ## License
 
