@@ -26,7 +26,7 @@ describe('Session Reducer', () => {
                 sessionReducer,
                 state,
                 LOGIN_USER_SUCCESS,
-                {token: 1234});
+                {id: 1234});
 
             expect(state.get('isLoading')).toBe(false);
             expect(state.get('hasError')).toBe(false);

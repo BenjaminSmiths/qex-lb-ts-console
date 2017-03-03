@@ -24,6 +24,7 @@ module.exports = (config) => {
             'karma-remap-istanbul',
             'karma-spec-reporter',
             'karma-chrome-launcher',
+            'karma-phantomjs-launcher',
         ],
 
         files: [
@@ -98,7 +99,7 @@ module.exports = (config) => {
         colors: true,
         logLevel: config.singleRun ? config.LOG_INFO : config.LOG_DEBUG,
         autoWatch: true,
-        browsers: ['Chrome'], // Alternatively: 'PhantomJS'
+        browsers: ['PhantomJS'], // Chrome || 'PhantomJS'
         captureTimeout: 6000,
     });
 };
